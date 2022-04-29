@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Open Sans', sans-serif;;
+}
+
+:root{
+  --cor-primaria: rgba(91, 161, 252, 0.552);
+}
+
+span{
+  color: var(--cor-primaria);
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+}
+
+ul{
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+section{
+  background-image: url(assets/img-fundo.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bannermid{
+  color: #fff;
+  text-align: center;
+  box-shadow: 1px 1px 2px 2px rgba(255, 255, 255, 0.738);
+  padding: 45px;
+  background-color: rgba(127, 255, 212, 0.719);
+  width: 420px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#pousadas{
+  font-size: 40px;
+  height: 70px;
+}
+
+aside{
+  text-align: center;
+}
+
+#welcome{
+  margin: 70px;
+}
+
+#comec{
+  margin: 15px;
+}
+
+#quartos{
+  padding: 8px;
+}
+
+#quartinhos{
+  display: inline;
+  padding: 100px;
+}
+
+#decoration{
+display: inline-block;
+border: 1px solid rgba(53, 118, 238, 0.891);
+width: 215px;
+margin: auto;
+width: 330px;
+margin: 10px;
+}
+
+.rote{
+  text-align: center;
+  margin: 115px;
+}
+
+.rote p{
+  padding: 30px;
+  margin: 8px;
+}
+
+.sobre p {
+  padding: 50px;
+}
+
+#fotosFim{
+  width: 150px;
+  height: 140px;
+}
+
+.final{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+  
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  width: 40vw;
+  height: 300px;
+}
+
+.local{
+  width: 100% !important;
+}
+
+.paragrafos{
+  text-align: left;
+  font-size: 13px;
+  width: 26vw;
+}
+
+.title {
+ text-align: center;
+}
+
+.paragrafo {
+  
+}
+
+footer{
+  background-color: rgba(5, 120, 86, 0.868);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 160px;
+  color: white;
+}
+
+hr{
+  border: none;
+  background-color:  rgba(5, 120, 86, 0.868);
+  height: 5px;
+}
+
+.boxIcones{
+  display: flex;
+  justify-content: space-around;
+}
+
+.icones{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  align-items: center;
+}
+
+.icones p {
+  width: 200px;
+}
+
+#icon{
+  margin: 10px;
+}
+
+#linha{
+margin-bottom: 8px;
+}
+
+#ff{
+  text-align: center;
+}
